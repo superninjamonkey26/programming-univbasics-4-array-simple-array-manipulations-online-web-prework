@@ -33,3 +33,8 @@ def using_shift(array)
   array = array.shift(1)
   array.shift
 end
+
+def shift_with_args(array)
+  array = array.shift(2)
+  array.shift(2)
+end
