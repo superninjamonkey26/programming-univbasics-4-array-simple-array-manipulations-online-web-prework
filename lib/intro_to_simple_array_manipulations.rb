@@ -28,3 +28,8 @@ def using_shift(array)
   array = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
   array.shift
 end
+
+def using_shift(array)
+  array = array.shift(1)
+  array.shift
+end
