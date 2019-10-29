@@ -9,4 +9,6 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  
+  array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+  array.pop("Antarctica")
+end
