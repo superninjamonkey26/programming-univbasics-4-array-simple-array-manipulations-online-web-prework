@@ -38,3 +38,5 @@ def shift_with_args(array)
   array = array.shift(2)
   array.shift(2)
 end
+
+def using_concat
