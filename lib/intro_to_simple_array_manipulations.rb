@@ -39,7 +39,7 @@ def shift_with_args(array)
   array.shift(2)
 end
 
-def using_concat(array1, array2)
+def using_concat(array)
   array1 = ["raindrops on roses", "whiskers on kittens"]
   array2 = ["sports cars", "flatiron school"]
   array.concat
